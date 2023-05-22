@@ -51,7 +51,7 @@ print(Fore.RED+'''
 smg = print(f'\33[92m    Version 1.0.1')
 
 siet = input(f'\033[94m    Enter siet targit ====>: ')
-domain = whois.whois('https://'+siet)
+domain = whois.whois("https://"+siet)
 res = builtwith.builtwith("https://"+siet)
 
 for i in res:
