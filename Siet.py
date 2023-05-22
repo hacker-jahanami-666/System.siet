@@ -1,5 +1,5 @@
 import builtwith
-import whois
+
 from colorama import init, Fore
 init()
 from random import choice, randint
@@ -51,14 +51,13 @@ print(Fore.RED+'''
 smg = print(f'\33[92m    Version 1.0.1')
 
 siet = input(f'\033[94m    Enter siet targit ====>: ')
-domain = whois.whois("https://"+siet)
+
 res = builtwith.builtwith("https://"+siet)
 
 for i in res:
 		print(res[i])
 
-for i in domain:
-	print(domain[i])
+
 
 
 
